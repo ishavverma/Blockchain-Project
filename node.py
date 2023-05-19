@@ -260,3 +260,4 @@ if __name__ == '__main__':
     wallet = Wallet(port)
     blockchain = Blockchain(wallet.public_key, port)
     app.run(host='127.0.0.1', port=port)
+    #change the ip to new one
